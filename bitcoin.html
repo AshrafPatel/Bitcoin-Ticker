@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <title>Bitcoin Ticker</title>
+    </head>
+    <body>
+        <h1>Bitcoin Ticker</h1>
+        <form action="/" method="POST">
+            <input type="text" amount="number" name="amount" placeholder="please enter amount"/>
+            
+            <select name="crypto">
+                <option value="BTC">Bitcoin</option>
+                <option value="ETH">Ethereum</option>
+                <option value="LTC">Litecoin</option>
+            </select>
+
+            <select name="currency">
+                <option value="USD">&#36;    US Dollar</option>
+                <option value="GBP">&#163;  British Pound</option>
+                <option value="EUR">&#128;	Euros</option>
+                <option value="CAD">&#36;   Canadian Dollar</option>
+            </select>
+
+            <button type="submit">Check Price</button>
+        </form>
+    </body>
+</html>
